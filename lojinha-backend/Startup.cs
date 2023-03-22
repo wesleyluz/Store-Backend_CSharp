@@ -132,7 +132,7 @@ namespace lojinha_backend
                     Scheme = "Bearer",
                     BearerFormat = "JWT",
                     In = ParameterLocation.Header,
-                    Description = "Coloque o access Token aqui no seguinte formar Bearer[espaço]Token",
+                    Description = "Coloque o access Token aqui no seguinte formato Bearer[espaço]Token",
 
                 });
                 //Solicita e armazena o token

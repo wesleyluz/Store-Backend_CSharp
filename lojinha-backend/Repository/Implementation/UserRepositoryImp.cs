@@ -23,8 +23,8 @@ namespace lojinha_backend.Repository.Implementation
         /// <returns>Retorna o usuário validado</returns>
         public User ValidateCredicial(User user)
         {
-            var pass = ComputeHash(user.PassWord, new SHA256CryptoServiceProvider());
-            return _context.users.FirstOrDefault(u => (u.UserName == user.UserName) && (u.PassWord == pass));
+            var pass = ComputeHash(user.Password, new SHA256CryptoServiceProvider());
+            return _context.users.FirstOrDefault(u => (u.UserName == user.UserName) && (u.Password == pass));
         }
         /// <summary>
         /// Atualiza as informações do usuário no banco

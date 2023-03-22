@@ -21,6 +21,7 @@
 
 ## Descrição do Projeto
   Projeto back-end para cadastrar, deletar. atualizar e listar produtos armazenando-os em uma base de dados azure.
+  Link para testar a aplicação online: https://lojinha-api.azurewebsites.net/index.html
 
 ## Funcionalidades
 -   Todos os end-points estão documentados via Swagger e são mostrados ao rodar o projeto.
